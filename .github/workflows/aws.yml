@@ -33,7 +33,7 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: springboot-example
-  ECS_SERVICE: MY_ECS_SERVICE
+  ECS_SERVICE: springboot-example-service
   ECS_CLUSTER: DevCluster
   ECS_TASK_DEFINITION: springboot-task-definition
   CONTAINER_NAME: springboot-example
