@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:443370707461:task-definition/springboot-task-definition:2",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:443370707461:task-definition/springboot-task-definition:3",
     "containerDefinitions": [
         {
             "name": "springboot-example",
@@ -16,10 +16,8 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -29,8 +27,7 @@
                     "max-buffer-size": "25m",
                     "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "ecs"
-                },
-                "secretOptions": []
+                }
             },
             "systemControls": []
         }
@@ -39,7 +36,7 @@
     "taskRoleArn": "arn:aws:iam::443370707461:role/ECSTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::443370707461:role/ECSTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 2,
+    "revision": 3,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -88,7 +85,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-10-25T17:44:16.587Z",
+    "registeredAt": "2024-10-25T18:15:14.283Z",
     "registeredBy": "arn:aws:iam::443370707461:root",
     "enableFaultInjection": false,
     "tags": []
