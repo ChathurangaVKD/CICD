@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.devops.pipeline.PipelineApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-25T12:06:35" hostname="Dasuns-MacBook-Air.local" time="0.429">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.devops.pipeline.PipelineApplicationTests" time="0.429"/>
+  <system-out><![CDATA[17:36:34.534 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.devops.pipeline.PipelineApplicationTests]: PipelineApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:36:34.567 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.devops.pipeline.PipelineApplication for test class com.devops.pipeline.PipelineApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-10-25T17:36:34.692+05:30  INFO 7451 --- [pipeline] [    Test worker] c.d.pipeline.PipelineApplicationTests    : Starting PipelineApplicationTests using Java 17.0.9 with PID 7451 (started by dchathuran in /Users/dchathuran/Documents/Projects/CICD)
+2024-10-25T17:36:34.693+05:30  INFO 7451 --- [pipeline] [    Test worker] c.d.pipeline.PipelineApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T17:36:35.085+05:30  INFO 7451 --- [pipeline] [    Test worker] c.d.pipeline.PipelineApplicationTests    : Started PipelineApplicationTests in 0.432 seconds (process running for 0.847)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
