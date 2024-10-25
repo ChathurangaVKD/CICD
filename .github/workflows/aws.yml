@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: springboot-example
   ECS_SERVICE: MY_ECS_SERVICE
   ECS_CLUSTER: DevCluster
-  ECS_TASK_DEFINITION: spring-boot-task-definition:2
+  ECS_TASK_DEFINITION: springboot-task-definition
   CONTAINER_NAME: springboot-example
 
 permissions:
