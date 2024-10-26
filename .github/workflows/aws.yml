@@ -41,6 +41,12 @@ jobs:
       - name: Build with Gradle Wrapper
         run: ./gradlew clean build
 
+      - name: listing 1
+        run: ls -l
+
+      - name: listing 2
+        run: ls -l build/libs
+
       - name: Save built JAR
         run: cp build/libs/*.jar pipeline-0.0.1-SNAPSHOT.jar
 
