@@ -39,7 +39,7 @@ jobs:
         uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
 
       - name: Build with Gradle Wrapper
-        run: ./gradlew build
+        run: ./gradlew clean build
 
       - name: Save built JAR
         run: cp build/libs/*.jar pipeline-0.0.1-SNAPSHOT.jar
@@ -96,6 +96,9 @@ jobs:
     - name: Login to Amazon ECR
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Copy JAR from build job
+      run: cp ../build/libs/*.jar ./pipeline-0.0.1-SNAPSHOT.jar
 
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
