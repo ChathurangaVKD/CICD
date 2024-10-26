@@ -14,7 +14,7 @@
                     "appProtocol": "http"
                 }
             ],
-            "essential": false,
+            "essential": true,
             "environment": [],
             "mountPoints": [],
             "volumesFrom": [],
