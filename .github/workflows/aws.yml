@@ -41,12 +41,6 @@ jobs:
       - name: Build with Gradle Wrapper
         run: ./gradlew clean build
 
-      - name: listing 1
-        run: ls -l
-
-      - name: listing 2
-        run: ls -l build/libs
-
       - name: Upload JAR as artifact
         uses: actions/upload-artifact@v3
         with:
